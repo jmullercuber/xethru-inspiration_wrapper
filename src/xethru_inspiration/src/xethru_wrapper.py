@@ -31,7 +31,7 @@ from XeThru_Python_Driver import xethru
 from XeThru_Python_Driver.xethru_const import *
 
 # Messages
-import XeThru_Resp # TODO: Add msgs to pkg
+from xethru_inspiration.msg import *
 from std_msgs.msg import Header
 
 # A few vars
