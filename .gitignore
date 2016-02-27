@@ -3,3 +3,4 @@ devel/*
 install/*
 *.pyc
 *~
+.catkin_workspace
