@@ -1,0 +1,7 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+	<param name="resp_port" type="str" value="/dev/ttyUSB0" />
+	<!-- Log file created at ~/.ros/XethruLog currentTime -->
+	<param name="log" type="bool" value="false" />
+	<node name="xethru" pkg="xethru_inspiration" type="xethru_wrapper.py" output="screen"/>
+</launch>
