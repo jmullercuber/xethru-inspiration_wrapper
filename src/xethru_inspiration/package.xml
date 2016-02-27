@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>xethru_inspiration</name>
+  <version>0.0.1</version>
+  <description>Python ROS wrapper for the Xethru Inspiration Module</description>
+
+  <maintainer email="jamam@mit.edu">Joseph Muller</maintainer>
+  <license>MIT</license>
+  <url type="repository">https://github.com/jmullercuber/xethru-inspiration_wrapper.git</url>
+  <!-- <url type="website">http://wiki.ros.org/xethru_inspiration</url> -->
+  <author email="jamam@mit.edu">Joseph Muller</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
